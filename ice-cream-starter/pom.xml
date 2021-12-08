@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.icecream</groupId>
+        <artifactId>ice-cream-parent</artifactId>
+        <version>${revision}</version>
+        <relativePath>../ice-cream-parent</relativePath>
+    </parent>
+
+    <artifactId>ice-cream-starter</artifactId>
+    <packaging>pom</packaging>
+
+    <name>ice-cream-starter</name>
+    <description>ice cream starter</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.icecream</groupId>
+            <artifactId>ice-cream-autoconfigure</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
+
+</project>
