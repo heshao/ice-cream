@@ -1,1 +1,1 @@
-# spring-boot-ice
+# ice-cream
